@@ -11,7 +11,8 @@ body {
   padding: 20px;
   padding-top: 40px;
   font-family: 'Anaheim', sans-serif;
-  font-size: 16px;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 a {
@@ -43,18 +44,29 @@ a {
   */
 }
 
+#footer{
+
+}
+
 .mission {
-  padding-top: 20px;
   color: #333;
   font-size: 30px;
 }
 
 .mission p{
-
 }
 
+
 .projects {
-  padding-top: 20px;
+}
+
+.projects h2 {
+  display: inline-block;
+  font-weight: normal;
+  color: #CCC;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
 }
 
 .projects ul, .projects li {
@@ -62,8 +74,12 @@ a {
   padding: 0px;
   margin: 0px;
 }
+.projects ul {
+  padding-bottom: 20px;
+}
+
 .projects li {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 
