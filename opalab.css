@@ -65,6 +65,7 @@ a {
   color: #61D2D6;
   margin: 0px;
   padding: 0px;
+  padding-bottom: 10px;
 }
 
 .projects ul, .projects li {
