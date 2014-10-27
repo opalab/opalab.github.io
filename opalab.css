@@ -1,0 +1,69 @@
+/* Oto Brglez - <otobrglez@gmail.com> */
+
+@import url('http://fonts.googleapis.com/css?family=Anaheim');
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 20px;
+  padding-top: 40px;
+  font-family: 'Anaheim', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+.body-wrap {
+
+}
+
+.body-wrap .wrap{
+  max-width: 600px;
+}
+
+.brand {
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #000;
+  text-decoration: none;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#header{
+  /*
+  line-height: 25px;
+  font-size: 25px;
+  */
+}
+
+.mission {
+  padding-top: 20px;
+  color: #333;
+  font-size: 30px;
+}
+
+.mission p{
+
+}
+
+.projects {
+  padding-top: 20px;
+}
+
+.projects ul, .projects li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.projects li {
+  padding-bottom: 10px;
+}
+
+
