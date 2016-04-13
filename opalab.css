@@ -1,6 +1,6 @@
 /* Oto Brglez - <otobrglez@gmail.com> */
 
-@import url('http://fonts.googleapis.com/css?family=Anaheim');
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,latin-ext);
 
 html, body {
   margin: 0px;
@@ -10,13 +10,13 @@ html, body {
 body {
   padding: 20px;
   padding-top: 40px;
-  font-family: 'Anaheim', sans-serif;
-  font-weight: normal;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  color: #999;
 }
 
 a {
   color: black;
-  font-weight: bold;
 }
 
 .body-wrap {
@@ -30,11 +30,13 @@ a {
 
 .brand {
   color: #000;
-  font-weight: bold;
+  font-weight: 400;
   border: 2px solid #000;
   text-decoration: none;
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 1em;
+  height: 2em;
 }
 
 #header{
@@ -48,6 +50,11 @@ a {
 .mission {
   color: #333;
   font-size: 2.5em;
+}
+
+.mission span.wave {
+  display: inline-block;
+  position: relative;
 }
 
 .mission p{
@@ -81,4 +88,9 @@ a {
   padding-bottom: 25px;
 }
 
+.love {
+  font-family: monospace;
+  color: red;
+
+}
 
